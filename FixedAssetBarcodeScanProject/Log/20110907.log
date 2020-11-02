@@ -1,0 +1,34 @@
+﻿2011-09-07 08:19:10: ymbi登录系统
+2011-09-07 08:45:23: ymbi登录系统
+2011-09-07 08:45:31: 导出异常：System.Threading.ThreadStateException: 在可以调用 OLE 之前，必须将当前线程设置为单线程单元(STA)模式。请确保您的 Main 函数带有 STAThreadAttribute 标记。 只有将调试器附加到该进程才会引发此异常。
+   在 System.Windows.Forms.FileDialog.RunDialog(IntPtr hWndOwner)
+   在 System.Windows.Forms.CommonDialog.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.CommonDialog.ShowDialog()
+   在 FixedAssetBarcodeScanProject.AddUser.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\AddUser.aspx.cs:行号 368
+2011-09-07 08:50:49: ymbi登录系统
+2011-09-07 08:50:56: 用户信息列表导出成功
+2011-09-07 08:57:27: ymbi登录系统
+2011-09-07 08:57:32: 用户信息列表导出成功
+2011-09-07 09:00:47: ymbi登录系统
+2011-09-07 09:00:52: 用户信息列表导出成功
+2011-09-07 09:11:24: ymbi登录系统
+2011-09-07 09:11:29: 导出异常：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 FixedAssetBarcodeScanProject.AddUser.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\AddUser.aspx.cs:行号 362
+2011-09-07 09:15:08: ymbi登录系统
+2011-09-07 09:15:13: 导出异常：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 FixedAssetBarcodeScanProject.AddUser.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\AddUser.aspx.cs:行号 373
+2011-09-07 09:15:19: 导出异常：System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.End()
+   在 FixedAssetBarcodeScanProject.AddUser.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\AddUser.aspx.cs:行号 373
+2011-09-07 13:11:56: ymbi登录系统
+2011-09-07 13:13:35: ymbi登录系统
+2011-09-07 13:15:36: ymbi登录系统
+2011-09-07 13:16:44: ymbi登录系统

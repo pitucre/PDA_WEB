@@ -1,0 +1,18 @@
+﻿2011-11-30 14:47:26: ymbi登录系统
+2011-11-30 14:47:38: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FixedAssetBarcodeScanProject.UpdateDataFromJDE.BtnUpload_Click(Object sender, ImageClickEventArgs e) in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\UpdateDataFromJDE.aspx.cs:line 92
+2011-11-30 14:48:38: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FixedAssetBarcodeScanProject.UpdateDataFromJDE.BtnUpload_Click(Object sender, ImageClickEventArgs e) in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\UpdateDataFromJDE.aspx.cs:line 92
+2011-11-30 14:50:28: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FixedAssetBarcodeScanProject.UpdateDataFromJDE.BtnUpload_Click(Object sender, ImageClickEventArgs e) in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\UpdateDataFromJDE.aspx.cs:line 92
+2011-11-30 14:51:38: ymbi登录系统
+2011-11-30 14:52:11: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FixedAssetBarcodeScanProject.UpdateDataFromJDE.BtnUpload_Click(Object sender, ImageClickEventArgs e) in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\UpdateDataFromJDE.aspx.cs:line 92
+2011-11-30 15:01:03: ymbi登录系统
+2011-11-30 15:01:37: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FixedAssetBarcodeScanProject.UpdateDataFromJDE.BtnUpload_Click(Object sender, ImageClickEventArgs e) in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\UpdateDataFromJDE.aspx.cs:line 96
+2011-11-30 15:02:48: ymbi登录系统
+2011-11-30 15:03:20: System.NullReferenceException: Object reference not set to an instance of an object.
+   at FixedAssetBarcodeScanProject.UpdateDataFromJDE.BtnUpload_Click(Object sender, ImageClickEventArgs e) in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\UpdateDataFromJDE.aspx.cs:line 96
+2011-11-30 15:04:00: ymbi登录系统
+2011-11-30 15:17:30: ymbi登录系统

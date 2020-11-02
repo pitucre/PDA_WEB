@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Publish\PDA_WEB</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="AddBarcodeSetting.aspx">
+      <publishTime>12/07/2011 09:41:06</publishTime>
+    </File>
+    <File Include="AddFunction.aspx">
+      <publishTime>08/25/2011 08:50:01</publishTime>
+    </File>
+    <File Include="AddPart.aspx">
+      <publishTime>08/25/2011 08:50:34</publishTime>
+    </File>
+    <File Include="AddPartSetting.aspx">
+      <publishTime>08/25/2011 08:50:46</publishTime>
+    </File>
+    <File Include="AddPurviewSetting.aspx">
+      <publishTime>08/24/2011 11:17:36</publishTime>
+    </File>
+    <File Include="AddUser.aspx">
+      <publishTime>09/07/2011 13:13:09</publishTime>
+    </File>
+    <File Include="AssetInfoList.aspx">
+      <publishTime>10/28/2011 08:46:29</publishTime>
+    </File>
+    <File Include="bin/FixedAssetBarcodeScanProject.dll">
+      <publishTime>11/02/2020 21:14:12</publishTime>
+    </File>
+    <File Include="bin/FixedAssetBarcodeScanProject.pdb">
+      <publishTime>11/02/2020 21:14:12</publishTime>
+    </File>
+    <File Include="bin/Oracle.DataAccess.dll">
+      <publishTime>05/10/2019 03:15:40</publishTime>
+    </File>
+    <File Include="ChangePassword.aspx">
+      <publishTime>08/25/2011 08:49:27</publishTime>
+    </File>
+    <File Include="CSS/CSS.CSS">
+      <publishTime>08/23/2011 17:15:19</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/08/2011 14:32:18</publishTime>
+    </File>
+    <File Include="DepartmentList.aspx">
+      <publishTime>10/26/2011 16:11:15</publishTime>
+    </File>
+    <File Include="EmployeeList.aspx">
+      <publishTime>10/26/2011 16:18:31</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="images/BG.GIF">
+      <publishTime>08/24/2011 08:48:45</publishTime>
+    </File>
+    <File Include="images/blue_info_back.gif">
+      <publishTime>08/23/2011 09:14:49</publishTime>
+    </File>
+    <File Include="images/blue_info_back1.gif">
+      <publishTime>08/23/2011 09:14:49</publishTime>
+    </File>
+    <File Include="images/blue_info_back2.gif">
+      <publishTime>08/23/2011 09:14:49</publishTime>
+    </File>
+    <File Include="images/clear.JPG">
+      <publishTime>09/22/2011 13:20:22</publishTime>
+    </File>
+    <File Include="images/CLOSE.GIF">
+      <publishTime>08/23/2011 17:27:52</publishTime>
+    </File>
+    <File Include="images/ct1.jpg">
+      <publishTime>08/24/2011 10:17:58</publishTime>
+    </File>
+    <File Include="images/DH_ADD.GIF">
+      <publishTime>08/24/2011 10:10:09</publishTime>
+    </File>
+    <File Include="images/dh_daochu.gif">
+      <publishTime>09/06/2011 14:51:17</publishTime>
+    </File>
+    <File Include="images/DH_DEL.GIF">
+      <publishTime>08/24/2011 10:10:09</publishTime>
+    </File>
+    <File Include="images/DH_EXIT.GIF">
+      <publishTime>08/24/2011 10:10:09</publishTime>
+    </File>
+    <File Include="images/dh_return.gif">
+      <publishTime>08/24/2011 10:18:27</publishTime>
+    </File>
+    <File Include="images/DH_SAVE.GIF">
+      <publishTime>08/24/2011 10:10:09</publishTime>
+    </File>
+    <File Include="images/exit2.jpg">
+      <publishTime>09/29/2011 14:12:54</publishTime>
+    </File>
+    <File Include="images/ico_arrow.gif">
+      <publishTime>08/24/2011 10:05:07</publishTime>
+    </File>
+    <File Include="images/ico_item.gif">
+      <publishTime>08/24/2011 10:05:07</publishTime>
+    </File>
+    <File Include="images/LefttitleChinese.jpg">
+      <publishTime>08/24/2011 08:48:27</publishTime>
+    </File>
+    <File Include="images/login.jpg">
+      <publishTime>08/24/2011 13:19:21</publishTime>
+    </File>
+    <File Include="images/LoginChinese.jpg">
+      <publishTime>08/23/2011 13:57:31</publishTime>
+    </File>
+    <File Include="images/MAIN.jpg">
+      <publishTime>08/23/2011 17:14:26</publishTime>
+    </File>
+    <File Include="images/refreshdata3.jpg">
+      <publishTime>09/29/2011 14:10:02</publishTime>
+    </File>
+    <File Include="images/saveScanResult.png">
+      <publishTime>10/26/2011 14:52:08</publishTime>
+    </File>
+    <File Include="images/TOP_BG2.jpg">
+      <publishTime>08/23/2011 17:23:31</publishTime>
+    </File>
+    <File Include="images/TrainAD.gif">
+      <publishTime>08/24/2011 10:13:48</publishTime>
+    </File>
+    <File Include="images/upload.jpg">
+      <publishTime>09/29/2011 15:40:04</publishTime>
+    </File>
+    <File Include="Left.aspx">
+      <publishTime>08/23/2011 17:26:03</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>11/02/2020 19:16:31</publishTime>
+    </File>
+    <File Include="Main.aspx">
+      <publishTime>09/19/2011 09:31:15</publishTime>
+    </File>
+    <File Include="NotScanAssetList.aspx">
+      <publishTime>11/08/2011 09:38:59</publishTime>
+    </File>
+    <File Include="ScanResultList.aspx">
+      <publishTime>10/26/2011 08:37:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="Scripts/showlayer.js">
+      <publishTime>08/24/2011 08:44:13</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="Styles/frameblue.css">
+      <publishTime>08/23/2011 09:20:56</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>08/12/2011 15:33:31</publishTime>
+    </File>
+    <File Include="Success.aspx">
+      <publishTime>08/25/2011 08:52:10</publishTime>
+    </File>
+    <File Include="Top.aspx">
+      <publishTime>09/22/2011 13:36:19</publishTime>
+    </File>
+    <File Include="UpdateDataFromJDE.aspx">
+      <publishTime>12/27/2011 10:45:07</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/02/2020 19:51:41</publishTime>
+    </File>
+    <File Include="Web/EmployeeInfo.aspx">
+      <publishTime>08/23/2011 09:58:18</publishTime>
+    </File>
+    <File Include="ZichanfenleiList.aspx">
+      <publishTime>08/30/2011 11:32:32</publishTime>
+    </File>
+    <File Include="ZichanLeibieList2.aspx">
+      <publishTime>08/30/2011 11:32:27</publishTime>
+    </File>
+    <File Include="ZichanZhuangtaiList.aspx">
+      <publishTime>08/30/2011 11:32:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

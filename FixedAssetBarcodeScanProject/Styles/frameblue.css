@@ -1,0 +1,355 @@
+﻿
+/*共用部分 begin*/
+#bitecn{
+	margin-right: 40px;
+	float:right;
+}
+
+#arrow{
+	margin-top:200px;
+}
+
+#nav{
+   margin-right:30px;
+   float:right;
+}
+
+.tpage{
+   width:254px;
+   height:25px;
+   text-decoration:none;
+   color:#000;
+   /*background:url("../images/turnpage_back.gif") no-repeat;*/
+   /*background:url("../images/tpage_back.gif") repeat-x;*/
+   background-color:#e9f7fd;
+   border-color:#5899d9;
+   border-width:1px;
+}
+
+#tpage a{
+   text-decoration:none;
+   color:#000;
+}
+
+#tpage a:hover{
+   color:#eeaa00;
+}
+
+.ini_tpage{
+  width:40px;
+  height:10px;
+  border:1 solid #cdcdcd;
+}
+
+.btn_go{
+  width:33px;
+  height:25px;
+  border:0px;
+  background:url("../images/turnpage_go.gif") no-repeat;
+  cursor:hand;
+} 
+
+/*共用部分 end*/
+
+
+/*蓝色皮肤样式 begin*/
+
+.bodycolor
+{
+	background-color:#b8d6fc;
+}
+
+.arrowcolor
+{
+	background-color:#5aa6fd;
+}
+
+#head_logorow{
+	margin: 0px;
+	width: 100%;
+	height: 42px;
+	background: url("../images/blue_logorow_bg.gif") repeat-x;
+}
+
+#head_logorow a:
+{
+	background: url("../images/blue_exit.gif") no-repeat;
+}
+
+#head_logorow a:hover
+{
+	background: url("../images/blue_exit_hover.gif") no-repeat;
+}
+
+#head_inforow{
+	margin: 0px;
+	text-align: left;
+	width: 100%;
+	height: 25px;
+	background: url("../images/blue_inforow_bg.gif") repeat-x;
+}
+
+#head_info{
+	margin-left: 50px;
+	padding:0px 0px 0px 0px;
+	width: 100%;
+	height: 25px;
+	/*background: url("../images/blue_info_back.gif") no-repeat;*/
+}
+
+.head_info{
+	height: 25px;
+	padding:0px 0px 0px 0px;
+	color:#ffffff;
+	border:0px;
+	margin-right:0px;
+	background-color:#777777;
+}
+
+.head_info1{
+	background: url("../images/blue_info_back.gif") no-repeat;
+	width:370px;
+	height: 25px;
+	padding:0px 0px 0px 0px;
+	color:#ffffff;
+	border:0px;
+	margin-right:0px;
+}
+
+.head_info2{
+	background: url("../images/blue_info_back1.gif") repeat-x;
+	color:#ffffff;
+	padding:0px 0px 0px 0px;
+	border:0px;
+	height: 25px;
+}
+
+.head_info3{
+	background: url("../images/blue_info_back2.gif") no-repeat;
+	color:#ffffff;
+	padding:0px 0px 0px 0px;
+	border:0px;
+	height: 25px;
+	width:15px;
+}
+
+#bitecnlogo_footer{
+	margin: 0px;
+    text-align: left;
+	width: 100%;
+	height: 29px;
+	background: url("../images/blue_footer_bg.gif") repeat-x;
+}
+
+#changecolor{
+	margin-right: 5px;
+	float:left;
+	color:White;
+	padding:5px 0px 0px 0px;
+}
+
+.changecolora
+{
+	width:10px;
+	height:10px;
+	font-size:12px;
+	text-decoration:none;
+	background-color:#ccdae3; 
+	border-color:#628d9f;
+}
+
+#menu_left{
+	margin-top: 10px;
+	float:left;
+    text-align: left;
+	width: 185px;
+	height: 100%;
+	overflow-x: hidden;
+	overflow:auto;
+}
+
+#menu_left ul li{
+	margin: 0px 0px 0px -30px;
+	padding:1px 20px 0px 0px;
+	list-style-type : none;
+	height: 17px;
+	/*background:url("../images/blue_menuback.gif") no-repeat;
+	background:url("../images/blue_lmenu_li_back.gif") no-repeat;*/
+	width: 140px;
+}
+
+.module{
+	margin: 8px 0px 0px 20px;
+	height: 21px;
+	background:url("../images/blue_menuback.gif") no-repeat;
+	cursor:hand;
+	padding:1px 0px 0px 60px;
+}
+
+.modulehover{
+	margin: 8px 0px 0px 20px;
+	height: 23px;
+	background:url("../images/blue_menuback_hover.gif") no-repeat;
+	cursor:hand;
+	padding:1px 0px 0px 60px;
+}
+
+.modulea
+{
+	margin:0px;
+	/*padding:1px 0px 0px 60px;*/
+	width:180px;
+	height:21px;
+    color:#000;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.menu{
+	margin: 8px 0px 0px -20px;
+	height: 23px;
+	background:url("../images/blue_menuback.gif") no-repeat;
+}
+
+#ul{
+	margin: 8px 0px 0px -20px;
+	list-style-type : none;
+	height: 100%;
+	background:url("../images/blue_menuback.gif") no-repeat;
+}
+
+#menu_left ul li a{
+	margin:0px;
+	padding:1px 0px 0px 40px;
+	width:140px;
+	height:21px;
+    color:#000;
+	font-size:12px;
+	text-decoration:none;
+	
+}
+#menu_left ul li a:hover
+{
+	margin:0px;
+	padding:1px 0px 0px 40px;
+	width:140px;
+	height:21px;
+    color:#eeeeee;
+	font-size:12px;
+	text-decoration:none;
+}
+
+.module_lmenu
+{
+	margin: 0px 0px 0px 24px!important ;
+	margin: 0px 0px 0px 11px;
+	padding-top:6px;
+	padding-left:5px;
+	float:left;
+    text-align: left;
+	width: 135px;
+	height: 100%;
+	background:url("../images/blue_lmenu_back.gif") repeat-y;
+	
+}
+
+.module_lmenu_btn{
+	margin:0px 0px;
+	padding-left:0px;
+	border:0px;
+	width:102px;
+	height:17px;
+	text-decoration:none;
+	background:url("../images/blue_lmenu_li_back.gif") no-repeat;
+	cursor:hand;
+	text-align:right;
+	font-size:12px;
+}
+
+.blue_lmenu_btn_over{
+	margin:2px 0px;
+	padding-left:5px;
+	border:0px;
+	width:102px;
+	height:17px;
+	text-decoration:none;
+	background:url("../images/blue_lmenu_li_back.gif") no-repeat;
+	cursor:hand;
+	text-align:left;
+	font-size:12px;
+	color:#eeeeee;
+}
+
+#right_container{
+   margin:0px;
+   width:100%;
+   height:100%;
+   /*background:url('../images/blue_right_bg.gif') repeat-x 50% bottom;*/
+}
+#titlerow_back{
+   margin:0px;
+   width:100%;
+   height:27px;
+   background-color:#def1ff;
+   text-align: left;
+}
+
+#title{
+   margin:0px;
+   float:left;
+   padding:0px 0px 0px 12px;
+   font-size:16px;
+   font-family:"黑体";
+   width:159px;
+   height:27px;
+   background:url("../images/blue_right_title_back.gif") no-repeat;
+}
+
+.tab_body
+{
+  /*background-color:#5899d9;
+  width:99%; 
+  border-color:#5899d9;*/
+}
+
+td
+{
+    margin: 0;
+    font-family: "宋体";
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 19px;
+}
+        
+.tab_th{
+   height:28px;
+   background:url("../images/blue_tab_th_bg.gif") repeat-x;
+   border-color:#5899d9;
+   border-width:1px;
+   
+}
+
+.tab_tr01
+{
+   background-color:#fff;
+   border-color:#5899d9;
+   border-width:1px;
+    text-align: center;
+}
+
+.tab_tr02{
+   height:25px;
+   background-color:#e9f7fd;
+   border-color:#5899d9;
+   border-width:1px;
+}
+
+.tab_border
+{
+  border-color:#5899d9;
+   border-width:1px;	
+}
+
+
+
+*蓝色皮肤样式 end*/

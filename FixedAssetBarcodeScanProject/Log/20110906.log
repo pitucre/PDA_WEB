@@ -1,0 +1,45 @@
+﻿2011-09-06 08:23:12: ymbi登录系统
+2011-09-06 08:25:33: ymbi：修改角色[1]的权限
+2011-09-06 08:26:08: ymbi：修改角色编号财务部资产监督员
+2011-09-06 08:26:34: ymbi：修改角色[2]的权限
+2011-09-06 08:26:58: ymbi：修改角色编号资产管理员
+2011-09-06 08:27:16: ymbi：修改角色[3]的权限
+2011-09-06 08:27:39: ymbi：增加用户27
+2011-09-06 08:28:04: cygao登录系统
+2011-09-06 08:43:15: ymbi登录系统
+2011-09-06 08:44:04: ymbi登录系统
+2011-09-06 09:00:49: cygao登录系统
+2011-09-06 09:11:14: ymbi登录系统
+2011-09-06 09:13:58: ymbi登录系统
+2011-09-06 10:17:28: ymbi登录系统
+2011-09-06 10:17:49: ymbi从JDE系统更新数据成功。
+2011-09-06 10:19:04: ymbi登录系统
+2011-09-06 10:57:52: ymbi登录系统
+2011-09-06 15:40:27: ymbi登录系统
+2011-09-06 15:40:36: 导出异常：System.ArgumentException: 不支持 URI 格式。
+   在 System.IO.Path.NormalizePathFast(String path, Boolean fullCheck)
+   在 System.IO.Path.NormalizePath(String path, Boolean fullCheck)
+   在 System.IO.Path.GetFullPathInternal(String path)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   在 System.IO.StreamWriter..ctor(String path)
+   在 FixedAssetBarcodeScanProject.AddUser.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\AddUser.aspx.cs:行号 340
+2011-09-06 15:45:52: ymbi登录系统
+2011-09-06 15:45:59: 用户信息列表导出成功
+2011-09-06 15:53:31: ymbi登录系统
+2011-09-06 15:55:16: ymbi登录系统
+2011-09-06 15:55:50: 用户信息列表导出成功
+2011-09-06 16:23:09: ymbi登录系统
+2011-09-06 16:24:06: 导出异常：System.Threading.ThreadStateException: 在可以调用 OLE 之前，必须将当前线程设置为单线程单元(STA)模式。请确保您的 Main 函数带有 STAThreadAttribute 标记。 只有将调试器附加到该进程才会引发此异常。
+   在 System.Windows.Forms.FileDialog.RunDialog(IntPtr hWndOwner)
+   在 System.Windows.Forms.CommonDialog.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.CommonDialog.ShowDialog()
+   在 FixedAssetBarcodeScanProject.AddUser.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\AddUser.aspx.cs:行号 365
+2011-09-06 16:24:50: ymbi登录系统
+2011-09-06 16:24:55: 导出异常：System.Threading.ThreadStateException: 在可以调用 OLE 之前，必须将当前线程设置为单线程单元(STA)模式。请确保您的 Main 函数带有 STAThreadAttribute 标记。 只有将调试器附加到该进程才会引发此异常。
+   在 System.Windows.Forms.FileDialog.RunDialog(IntPtr hWndOwner)
+   在 System.Windows.Forms.CommonDialog.ShowDialog(IWin32Window owner)
+   在 System.Windows.Forms.CommonDialog.ShowDialog()
+   在 FixedAssetBarcodeScanProject.AddUser.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\AddUser.aspx.cs:行号 365

@@ -1,0 +1,43 @@
+﻿2011-10-24 08:20:48: 异常：System.Data.SqlClient.SqlException: 在建立与服务器的连接时出错。在连接到 SQL Server 2005 时，在默认的设置下 SQL Server 不允许进行远程连接可能会导致此失败。 (provider: 命名管道提供程序, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(String host, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, Int64 timerStart)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Common.DbDataAdapter.QuietOpen(IDbConnection connection, ConnectionState& originalState)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 CCT.DAL.BaseOperation.GetPCRUserId(String inputNo) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\BaseOperation.cs:行号 340
+2011-10-24 08:27:18: ymbi登录系统
+2011-10-24 08:28:02: ymbi登录系统
+2011-10-24 09:05:41: ymbi登录系统
+2011-10-24 13:07:34: ymbi登录系统
+2011-10-24 13:14:40: ymbi登录系统
+2011-10-24 13:15:38: ymbi登录系统
+2011-10-24 13:19:23: ymbi登录系统
+2011-10-24 13:49:22: ymbi登录系统
+2011-10-24 14:08:11: ymbi登录系统
+2011-10-24 14:10:41: ymbi登录系统
+2011-10-24 14:16:23: ymbi登录系统
+2011-10-24 14:20:05: ymbi登录系统
+2011-10-24 14:22:16: ymbi登录系统
+2011-10-24 14:24:48: ymbi登录系统
+2011-10-24 14:28:29: ymbi登录系统
+2011-10-24 14:29:51: ymbi登录系统
+2011-10-24 14:31:04: ymbi登录系统
+2011-10-24 14:32:45: ymbi登录系统
+2011-10-24 14:34:19: ymbi登录系统
+2011-10-24 14:35:07: ymbi登录系统
+2011-10-24 16:43:57: ymbi登录系统
+2011-10-24 17:05:14: ymbi登录系统

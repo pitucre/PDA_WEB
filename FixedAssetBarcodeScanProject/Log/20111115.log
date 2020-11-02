@@ -1,0 +1,63 @@
+﻿2011-11-15 14:24:22: ymbi登录系统
+2011-11-15 14:35:42: ymbi登录系统
+2011-11-15 14:50:27: System.IO.FileNotFoundException: Could not load file or assembly 'Oracle.DataAccess, Version=2.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342' or one of its dependencies. The system cannot find the file specified.
+File name: 'Oracle.DataAccess, Version=2.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342'
+   at CCT.DAL.DbHelperSQL.OracleExecuteDataset(String strSQL, String tableName)
+   at CCT.DAL.BaseOperation.RefreshDataFromJDE() in D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\BaseOperation.cs:line 37
+
+=== Pre-bind state information ===
+LOG: User = LAB001\Administrator
+LOG: DisplayName = Oracle.DataAccess, Version=2.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342
+ (Fully-specified)
+LOG: Appbase = file:///D:/固定资产条码开发/Project/FixedAssetBarcodeScanProject/FixedAssetBarcodeScanProject/
+LOG: Initial PrivatePath = D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\bin
+Calling assembly : FixedAssetBarcodeScanProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\web.config
+LOG: Using machine configuration file from C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\config\machine.config.
+LOG: Post-policy reference: Oracle.DataAccess, Version=2.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342
+LOG: Attempting download of new URL file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/Temporary ASP.NET Files/root/a5a848ec/1d9a470e/Oracle.DataAccess.DLL.
+LOG: Attempting download of new URL file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/Temporary ASP.NET Files/root/a5a848ec/1d9a470e/Oracle.DataAccess/Oracle.DataAccess.DLL.
+LOG: Attempting download of new URL file:///D:/固定资产条码开发/Project/FixedAssetBarcodeScanProject/FixedAssetBarcodeScanProject/bin/Oracle.DataAccess.DLL.
+LOG: Attempting download of new URL file:///D:/固定资产条码开发/Project/FixedAssetBarcodeScanProject/FixedAssetBarcodeScanProject/bin/Oracle.DataAccess/Oracle.DataAccess.DLL.
+LOG: Attempting download of new URL file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/Temporary ASP.NET Files/root/a5a848ec/1d9a470e/Oracle.DataAccess.EXE.
+LOG: Attempting download of new URL file:///C:/WINDOWS/Microsoft.NET/Framework/v2.0.50727/Temporary ASP.NET Files/root/a5a848ec/1d9a470e/Oracle.DataAccess/Oracle.DataAccess.EXE.
+LOG: Attempting download of new URL file:///D:/固定资产条码开发/Project/FixedAssetBarcodeScanProject/FixedAssetBarcodeScanProject/bin/Oracle.DataAccess.EXE.
+LOG: Attempting download of new URL file:///D:/固定资产条码开发/Project/FixedAssetBarcodeScanProject/FixedAssetBarcodeScanProject/bin/Oracle.DataAccess/Oracle.DataAccess.EXE.
+
+2011-11-15 14:58:38: ymbi登录系统
+2011-11-15 14:59:05: Oracle.DataAccess.Client.OracleException ORA-12170: TNS: 连接超时    at CCT.DAL.DbHelperSQL.OracleExecuteDataset(String strSQL, String tableName) in D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\DbHelperSQL.cs:line 557
+   at CCT.DAL.BaseOperation.RefreshDataFromJDE() in D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\BaseOperation.cs:line 37
+2011-11-15 15:17:25: ymbi登录系统
+2011-11-15 15:31:48: ymbi登录系统
+2011-11-15 15:32:54: ymbi登录系统
+2011-11-15 15:35:04: ymbi登录系统
+2011-11-15 15:37:07: ymbi登录系统
+2011-11-15 15:38:52: ymbi登录系统
+2011-11-15 15:39:19: ymbi登录系统
+2011-11-15 15:42:28: ymbi登录系统
+2011-11-15 15:45:11: ymbi登录系统
+2011-11-15 15:46:16: ymbi登录系统
+2011-11-15 15:47:27: ymbi登录系统
+2011-11-15 15:49:25: ymbi登录系统
+2011-11-15 15:50:34: ymbi登录系统
+2011-11-15 15:52:16: ymbi登录系统
+2011-11-15 15:53:12: ymbi登录系统
+2011-11-15 15:54:24: ymbi登录系统
+2011-11-15 15:55:39: ymbi登录系统
+2011-11-15 15:56:35: ymbi从JDE系统更新数据成功。
+2011-11-15 15:58:05: ymbi登录系统
+2011-11-15 15:58:53: ymbi从JDE系统更新数据成功。
+2011-11-15 16:00:08: ymbi登录系统
+2011-11-15 16:02:45: ymbi登录系统
+2011-11-15 16:05:18: Oracle.DataAccess.Client.OracleException ORA-00936: missing expression    at CCT.DAL.DbHelperSQL.OracleExecuteDataset(String strSQL, String tableName) in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\DbHelperSQL.cs:line 557
+   at CCT.DAL.BaseOperation.RefreshDataFromJDE() in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\BaseOperation.cs:line 162
+2011-11-15 16:07:19: ymbi登录系统
+2011-11-15 16:07:29: Oracle.DataAccess.Client.OracleException ORA-00936: missing expression    at CCT.DAL.DbHelperSQL.OracleExecuteDataset(String strSQL, String tableName) in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\DbHelperSQL.cs:line 557
+   at CCT.DAL.BaseOperation.RefreshDataFromJDE() in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\BaseOperation.cs:line 162
+2011-11-15 16:08:38: ymbi登录系统
+2011-11-15 16:09:07: Oracle.DataAccess.Client.OracleException ORA-12170: TNS: 连接超时    at CCT.DAL.DbHelperSQL.OracleExecuteDataset(String strSQL, String tableName) in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\DbHelperSQL.cs:line 557
+   at CCT.DAL.BaseOperation.RefreshDataFromJDE() in D:\固定资产条码开发\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\BaseOperation.cs:line 37
+2011-11-15 16:10:07: ymbi从JDE系统更新数据成功。
+2011-11-15 16:15:20: ymbi从JDE系统更新数据成功。

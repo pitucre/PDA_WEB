@@ -1,0 +1,13 @@
+﻿2011-09-14 08:45:37: ymbi登录系统
+2011-09-14 08:47:27: ymbi登录系统
+2011-09-14 08:47:47: ymbi从JDE系统更新数据成功。
+2011-09-14 08:53:03: ymbi登录系统
+2011-09-14 08:53:23: ymbi从JDE系统更新数据成功。
+2011-09-14 09:04:32: ymbi登录系统
+2011-09-14 09:04:37: System.ArgumentException: 列“FANUMB”不属于表 F1201。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 CCT.DAL.BaseOperation.RefreshDataFromJDE() 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\DAL\BaseOperation.cs:行号 186
+2011-09-14 09:05:21: ymbi登录系统
+2011-09-14 09:05:40: ymbi从JDE系统更新数据成功。
+2011-09-14 15:43:04: ymbi登录系统

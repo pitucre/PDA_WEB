@@ -1,0 +1,61 @@
+﻿2011-10-25 08:17:17: ymbi登录系统
+2011-10-25 09:17:12: ymbi登录系统
+2011-10-25 10:25:46: ymbi登录系统
+2011-10-25 10:27:02: ymbi登录系统
+2011-10-25 10:35:23: ymbi登录系统
+2011-10-25 10:55:52: ymbi登录系统
+2011-10-25 10:57:09: ymbi登录系统
+2011-10-25 10:57:51: ymbi登录系统
+2011-10-25 11:02:50: ymbi登录系统
+2011-10-25 11:04:27: ymbi登录系统
+2011-10-25 11:06:03: ymbi登录系统
+2011-10-25 11:11:17: ymbi登录系统
+2011-10-25 11:15:56: ymbi登录系统
+2011-10-25 11:24:43: ymbi登录系统
+2011-10-25 11:29:28: ymbi登录系统
+2011-10-25 11:30:13: ymbi登录系统
+2011-10-25 11:30:45: ymbi登录系统
+2011-10-25 11:40:07: ymbi登录系统
+2011-10-25 11:40:44: ymbi登录系统
+2011-10-25 11:42:24: ymbi登录系统
+2011-10-25 11:57:05: ymbi登录系统
+2011-10-25 13:29:08: ymbi登录系统
+2011-10-25 13:33:37: ymbi登录系统
+2011-10-25 13:35:41: ymbi登录系统
+2011-10-25 13:36:45: ymbi登录系统
+2011-10-25 13:42:08: ymbi登录系统
+2011-10-25 13:42:48: ymbi登录系统
+2011-10-25 13:45:41: ymbi登录系统
+2011-10-25 13:46:25: ymbi登录系统
+2011-10-25 13:49:24: ymbi登录系统
+2011-10-25 13:52:47: ymbi登录系统
+2011-10-25 14:06:41: ymbi登录系统
+2011-10-25 14:08:29: ymbi登录系统
+2011-10-25 14:39:49: ymbi登录系统
+2011-10-25 14:42:48: ymbi登录系统
+2011-10-25 14:48:52: ymbi登录系统
+2011-10-25 15:06:34: ymbi登录系统
+2011-10-25 15:07:37: ymbi登录系统
+2011-10-25 15:16:50: ymbi登录系统
+2011-10-25 16:05:23: ymbi登录系统
+2011-10-25 16:16:51: ymbi登录系统
+2011-10-25 16:18:19: System.Data.OleDb.OleDbException: 外部表不是预期的格式。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 FixedAssetBarcodeScanProject.UpdateDataFromJDE.BtnUpload_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\UpdateDataFromJDE.aspx.cs:行号 54
+2011-10-25 16:19:27: ymbi登录系统
+2011-10-25 16:19:40: System.Data.OleDb.OleDbException: 外部表不是预期的格式。
+   在 System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   在 System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OleDb.OleDbConnection.Open()
+   在 FixedAssetBarcodeScanProject.UpdateDataFromJDE.BtnUpload_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\UpdateDataFromJDE.aspx.cs:行号 54
+2011-10-25 16:21:34: ymbi登录系统
+2011-10-25 16:24:23: ymbi登录系统
+2011-10-25 16:55:12: ymbi登录系统

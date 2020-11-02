@@ -1,0 +1,50 @@
+﻿2011-10-20 10:45:40: ymbi登录系统
+2011-10-20 10:55:18: ymbi登录系统
+2011-10-20 11:03:42: ymbi登录系统
+2011-10-20 11:18:36: ymbi登录系统
+2011-10-20 14:03:59: ymbi登录系统
+2011-10-20 14:14:33: ymbi登录系统
+2011-10-20 14:22:43: ymbi登录系统
+2011-10-20 14:25:34: ymbi登录系统
+2011-10-20 14:27:26: ymbi登录系统
+2011-10-20 14:28:56: ymbi登录系统
+2011-10-20 14:31:49: ymbi登录系统
+2011-10-20 14:32:59: ymbi登录系统
+2011-10-20 14:40:19: ymbi登录系统
+2011-10-20 14:41:11: ymbi登录系统
+2011-10-20 14:43:30: ymbi登录系统
+2011-10-20 15:08:18: ymbi登录系统
+2011-10-20 15:08:24: 导出异常：System.ArgumentException: 列“资产信息正确”不属于表 ds。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 FixedAssetBarcodeScanProject.ScanResultList.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\ScanResultList.aspx.cs:行号 236
+2011-10-20 15:08:58: 导出异常：System.ArgumentException: 列“资产信息正确”不属于表 ds。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 FixedAssetBarcodeScanProject.ScanResultList.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\ScanResultList.aspx.cs:行号 236
+2011-10-20 15:10:06: 导出异常：System.ArgumentException: 列“资产信息正确”不属于表 ds。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 FixedAssetBarcodeScanProject.ScanResultList.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\ScanResultList.aspx.cs:行号 236
+2011-10-20 15:11:13: ymbi登录系统
+2011-10-20 15:12:50: ymbi登录系统
+2011-10-20 15:14:00: ymbi登录系统
+2011-10-20 15:14:04: 导出异常：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FixedAssetBarcodeScanProject.ScanResultList.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\ScanResultList.aspx.cs:行号 267
+2011-10-20 15:15:04: 导出异常：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FixedAssetBarcodeScanProject.ScanResultList.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\ScanResultList.aspx.cs:行号 267
+2011-10-20 15:17:14: ymbi登录系统
+2011-10-20 15:18:00: 导出异常：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FixedAssetBarcodeScanProject.ScanResultList.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\ScanResultList.aspx.cs:行号 267
+2011-10-20 15:21:33: ymbi登录系统
+2011-10-20 15:21:50: 导出异常：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FixedAssetBarcodeScanProject.ScanResultList.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\ScanResultList.aspx.cs:行号 267
+2011-10-20 15:23:27: 导出异常：System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 FixedAssetBarcodeScanProject.ScanResultList.BtnExport_Click(Object sender, ImageClickEventArgs e) 位置 D:\Project\FixedAssetBarcodeScanProject\FixedAssetBarcodeScanProject\ScanResultList.aspx.cs:行号 267
+2011-10-20 15:24:24: ymbi登录系统
+2011-10-20 15:25:30: ymbi登录系统
+2011-10-20 15:28:13: ymbi登录系统
+2011-10-20 15:31:44: ymbi登录系统
+2011-10-20 15:34:01: ymbi登录系统
+2011-10-20 16:24:40: ymbi登录系统
+2011-10-20 16:25:47: ymbi登录系统

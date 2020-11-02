@@ -1,0 +1,80 @@
+body {
+FONT-SIZE: 12px; 
+SCROLLBAR-HIGHLIGHT-COLOR: #75BAFF;
+	 SCROLLBAR-SHADOW-COLOR: #75BAFF; 
+	  SCROLLBAR-3DLIGHT-COLOR: buttonhighlight;
+	  scrollbar-face-color:#DFEFFF;
+	   SCROLLBAR-TRACK-COLOR: #F0F8FF;
+	   scrollbar-arrow-color:#0066CC;
+	    FONT-FAMILY: "MS Shell Dlg", "Tahoma", "ËÎÌו";
+		 SCROLLBAR-DARKSHADOW-COLOR: #FFFFFF;
+		 
+}
+
+td{font-size:9pt}
+.aa{font-size:17pt}
+.UNKNOWN {
+	FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A.bt:link{
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A.bt:active {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A.bt:visited {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A.bt:hover {
+	BORDER-RIGHT: #0066cc 1pt solid; BORDER-TOP: #99ccff 1pt solid; FONT-SIZE: 9pt; 	LEFT: 0px; BORDER-LEFT: #aad5ff 1pt solid; WIDTH: 100px; COLOR: #003399; LINE-HEIGHT: 16px; 	BORDER-BOTTOM: #0066cc 1pt solid; TOP: 0px; TEXT-DECORATION: none
+	}
+
+A:link {
+	COLOR: #3366cc; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #3366cc; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #3366cc; TEXT-DECORATION: none
+}
+
+input {font-size:9pt}
+.queding { BACKGROUND-IMAGE: url(../image/queding.jpg) }
+.indexbg_y { FONT-SIZE: 9pt; COLOR: #003399; BACKGROUND-REPEAT: repeat-y; FONT-FAMILY: "ËÎÌו" }
+.fro_editbox6 { BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(image/line_dl.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100px; CURSOR: text; COLOR: #0033cc; PADDING-TOP: 2px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: "ËÎÌו"; HEIGHT: 19px; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none }
+
+table {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #333333;
+}
+
+.titleClass {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.titleClass2 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #d30000;
+}
+
+.topClass {
+	height: 35px;
+	background-image: url('../Images/bg_top.jpg');
+}
+
+.mainClass {
+	background-image: url('../Images/bg_main.gif');
+}
+
+.sepLineClass {
+	background-color: #9D938C;
+}
+
+.sysInfoClass {
+	color: #999999;
+	font-size: 10px;
+}
