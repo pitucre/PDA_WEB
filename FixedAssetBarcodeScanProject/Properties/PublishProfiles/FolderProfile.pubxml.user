@@ -41,13 +41,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/07/2011 13:13:09</publishTime>
     </File>
     <File Include="AssetInfoList.aspx">
-      <publishTime>10/28/2011 08:46:29</publishTime>
+      <publishTime>11/03/2020 17:12:22</publishTime>
     </File>
     <File Include="bin/FixedAssetBarcodeScanProject.dll">
-      <publishTime>11/02/2020 21:14:12</publishTime>
+      <publishTime>11/03/2020 17:12:36</publishTime>
     </File>
     <File Include="bin/FixedAssetBarcodeScanProject.pdb">
-      <publishTime>11/02/2020 21:14:12</publishTime>
+      <publishTime>11/03/2020 17:12:36</publishTime>
     </File>
     <File Include="bin/Oracle.DataAccess.dll">
       <publishTime>05/10/2019 03:15:40</publishTime>
@@ -59,13 +59,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/23/2011 17:15:19</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>10/08/2011 14:32:18</publishTime>
+      <publishTime>11/03/2020 17:03:44</publishTime>
     </File>
     <File Include="DepartmentList.aspx">
       <publishTime>10/26/2011 16:11:15</publishTime>
     </File>
     <File Include="EmployeeList.aspx">
-      <publishTime>10/26/2011 16:18:31</publishTime>
+      <publishTime>11/03/2020 17:06:52</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>08/12/2011 15:33:31</publishTime>
@@ -158,7 +158,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>11/08/2011 09:38:59</publishTime>
     </File>
     <File Include="ScanResultList.aspx">
-      <publishTime>10/26/2011 08:37:14</publishTime>
+      <publishTime>11/03/2020 16:39:07</publishTime>
     </File>
     <File Include="Scripts/jquery-1.4.1-vsdoc.js">
       <publishTime>08/12/2011 15:33:31</publishTime>
@@ -188,10 +188,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/22/2011 13:36:19</publishTime>
     </File>
     <File Include="UpdateDataFromJDE.aspx">
-      <publishTime>12/27/2011 10:45:07</publishTime>
+      <publishTime>11/03/2020 17:11:36</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/02/2020 19:51:41</publishTime>
+      <publishTime>11/03/2020 17:04:08</publishTime>
     </File>
     <File Include="Web/EmployeeInfo.aspx">
       <publishTime>08/23/2011 09:58:18</publishTime>
@@ -203,7 +203,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/30/2011 11:32:27</publishTime>
     </File>
     <File Include="ZichanZhuangtaiList.aspx">
-      <publishTime>08/30/2011 11:32:18</publishTime>
+      <publishTime>11/03/2020 17:10:47</publishTime>
     </File>
   </ItemGroup>
 </Project>

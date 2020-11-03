@@ -1,15 +1,15 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ZichanZhuangtaiList.aspx.cs" Inherits="FixedAssetBarcodeScanProject.ZichanZhuangtaiList" %>
+О╩©<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ZichanZhuangtaiList.aspx.cs" Inherits="FixedAssetBarcodeScanProject.ZichanZhuangtaiList" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 	<head>
-		<title>вй╡Зв╢л╛пео╒</title>
+		<title>Х╣└Д╨╖Г┼╤Ф─│Д©║Ф│╞</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
 		<meta content="C#" name="CODE_LANGUAGE">
 		<meta content="JavaScript" name="vs_defaultClientScript">
 		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
 		<link href="CSS/css.css" type="text/css" rel="stylesheet">
-		<style type="text/css">.style7 { FONT-SIZE: 12px; FONT-FAMILY: "кнлЕ" }
+		<style type="text/css">.style7 { FONT-SIZE: 12px; FONT-FAMILY: "Е╝▀Д╫⌠" }
 		</style>
 	</head>
 	<body leftMargin="0" topMargin="0" onload="">
@@ -19,7 +19,7 @@
 					<TD style="HEIGHT: 226px; width: 616px;" vAlign="top">
 						<TABLE cellSpacing="1" cellPadding="0" width="100%" bgColor="#c7bebc" border="0">
 							<TR>
-								<TD style="HEIGHT: 14px; width: 948px;" background="images/TrainAD.gif" bgColor="#e6e6e6">&nbsp;&nbsp;<IMG height="12" alt="" src="images/ico_arrow.gif" width="16" border="0"><FONT style="COLOR: #ff6666">&nbsp;вй╡Зв╢л╛пео╒</FONT></TD>
+								<TD style="HEIGHT: 14px; width: 948px;" background="images/TrainAD.gif" bgColor="#e6e6e6">&nbsp;&nbsp;<IMG height="12" alt="" src="images/ico_arrow.gif" width="16" border="0"><FONT style="COLOR: #ff6666">&nbsp;Х╣└Д╨╖Г┼╤Ф─│Д©║Ф│╞</FONT></TD>
 							</TR>
 							<TR id="taskDiv" vAlign="top">
 								<td vAlign="top" bgColor="#ffffff" style="width: 948px; height: 467px;">
@@ -28,17 +28,17 @@
 														<TD bgColor="#ff9900" colSpan="4" style="height: 1px"><IMG height="1" alt="" src="../Common/Images/spacer.gif" width="1" border="0"></TD>
 													</TR>
 													<TR vAlign="top">
-														<TD style="WIDTH: 84px; height: 130px;" colSpan="4"><FONT face="кнлЕ"><asp:datagrid id="MyDataGrid" runat="server" AutoGenerateColumns="False" BorderWidth="1px" Font-Names="Verdana"
+														<TD style="WIDTH: 84px; height: 130px;" colSpan="4"><FONT face="Е╝▀Д╫⌠"><asp:datagrid id="MyDataGrid" runat="server" AutoGenerateColumns="False" BorderWidth="1px" Font-Names="Verdana"
 																	BorderColor="#CBD7FF" AllowPaging="True" PagerStyle-Mode="NumericPages" PagerStyle-HorizontalAlign="Right" OnPageIndexChanged="MyDataGrid_Page"
 																	CellPadding="4" Font-Size="8pt" HeaderStyle-BackColor="#aaaadd" AlternatingItemStyle-BackColor="#eeeeee" HorizontalAlign="Center" Width="734px" Height="145px">
 																	<SelectedItemStyle BackColor="DodgerBlue"></SelectedItemStyle>
 																	<AlternatingItemStyle BackColor="#EEEEEE"></AlternatingItemStyle>
 																	<HeaderStyle Font-Bold="True" HorizontalAlign="Center" BackColor="#CBD7FF"></HeaderStyle>
 																	<Columns>
-																		<asp:BoundColumn DataField="ZHUANGTAICODE" HeaderText="вй╡З╠Ю╨е">
+																		<asp:BoundColumn DataField="ZHUANGTAICODE" HeaderText="Х╣└Д╨╖Г╪√Е▐╥">
 																			<HeaderStyle Width="150px"></HeaderStyle>
 																		</asp:BoundColumn>
-																		<asp:BoundColumn DataField="ZHUANGTAIMINGCHENG" HeaderText="вй╡ЗцШЁф">
+																		<asp:BoundColumn DataField="ZHUANGTAIMINGCHENG" HeaderText="Х╣└Д╨╖Е░█Г╖╟">
 																			<HeaderStyle Width="400px"></HeaderStyle>
 																		</asp:BoundColumn>
 																	</Columns>

@@ -1,15 +1,15 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AssetInfoList.aspx.cs" Inherits="FixedAssetBarcodeScanProject.AssetInfoList" EnableEventValidation="false"%>
+Ôªø<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AssetInfoList.aspx.cs" Inherits="FixedAssetBarcodeScanProject.AssetInfoList" EnableEventValidation="false"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 	<head>
-		<title>πÃ∂®◊ ≤˙–≈œ¢¡–±Ì</title>
+		<title>Âõ∫ÂÆöËµÑ‰∫ß‰ø°ÊÅØÂàóË°®</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
 		<meta content="C#" name="CODE_LANGUAGE">
 		<meta content="JavaScript" name="vs_defaultClientScript">
 		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
 		<link href="CSS/css.css" type="text/css" rel="stylesheet">
-		<style type="text/css">.style7 { FONT-SIZE: 12px; FONT-FAMILY: "ÀŒÃÂ" }
+		<style type="text/css">.style7 { FONT-SIZE: 12px; FONT-FAMILY: "ÂÆã‰Ωì" }
 		</style>
 	</head>
 	<body leftMargin="0" topMargin="0" onload="">
@@ -19,7 +19,7 @@
 					<TD style="HEIGHT: 226px;" vAlign="top">
 						<TABLE cellSpacing="1" cellPadding="0" width="100%" bgColor="#c7bebc" border="0">
 							<TR>
-								<TD style="HEIGHT: 14px; width: 948px;" background="images/TrainAD.gif" bgColor="#e6e6e6">&nbsp;&nbsp;<IMG height="12" alt="" src="images/ico_arrow.gif" width="16" border="0"><FONT style="COLOR: #ff6666">&nbsp;πÃ∂®◊ ≤˙–≈œ¢¡–±Ì</FONT></TD>
+								<TD style="HEIGHT: 14px; width: 948px;" background="images/TrainAD.gif" bgColor="#e6e6e6">&nbsp;&nbsp;<IMG height="12" alt="" src="images/ico_arrow.gif" width="16" border="0"><FONT style="COLOR: #ff6666">&nbsp;Âõ∫ÂÆöËµÑ‰∫ß‰ø°ÊÅØÂàóË°®</FONT></TD>
 							</TR>
 							<TR id="taskDiv" vAlign="top">
 								<td vAlign="top" bgColor="#ffffff" style="">
@@ -29,38 +29,38 @@
 													</TR>
                                                     <TR vAlign="top">
 														<TD colSpan="4" style="height: 1px">
-                                                            <asp:Label ID="labDept" runat="server" Text=" π”√≤ø√≈£∫"></asp:Label>
+                                                            <asp:Label ID="labDept" runat="server" Text="‰ΩøÁî®ÈÉ®Èó®Ôºö"></asp:Label>
                                                             <asp:DropDownList ID="dropDept" runat="server"></asp:DropDownList>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            <asp:Label ID="labName" runat="server" Text="◊ ≤˙√˚≥∆£∫"></asp:Label>
+                                                            <asp:Label ID="labName" runat="server" Text="ËµÑ‰∫ßÂêçÁß∞Ôºö"></asp:Label>
                                                             <asp:TextBox ID="txtName" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            <asp:Label ID="labAssetCode" runat="server" Text="◊ ≤˙±‡¬Î£∫"></asp:Label>
+                                                            <asp:Label ID="labAssetCode" runat="server" Text="ËµÑ‰∫ßÁºñÁ†ÅÔºö"></asp:Label>
                                                             <asp:TextBox ID="txtAssetCode" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            <asp:Label ID="labBarCode" runat="server" Text="Ãı–Œ¬Î£∫"></asp:Label>
+                                                            <asp:Label ID="labBarCode" runat="server" Text="Êù°ÂΩ¢Á†ÅÔºö"></asp:Label>
                                                             <asp:DropDownList ID="dropBarcode" runat="server">
-                                                                <asp:ListItem Value="-1">À˘”–</asp:ListItem>
-                                                                <asp:ListItem Value="0">ŒﬁÃı¬Î</asp:ListItem>
-                                                                <asp:ListItem Value="1">”–Ãı¬Î</asp:ListItem>
+                                                                <asp:ListItem Value="-1">ÊâÄÊúâ</asp:ListItem>
+                                                                <asp:ListItem Value="0">Êó†Êù°Á†Å</asp:ListItem>
+                                                                <asp:ListItem Value="1">ÊúâÊù°Á†Å</asp:ListItem>
                                                             </asp:DropDownList>
                                                         </TD>
 													</TR>
                                                     <TR vAlign="top">
 														<TD colSpan="4" style="height: 1px">
-                                                            <asp:Label ID="labAdmindept" runat="server" Text="π‹¿Ì≤ø√≈£∫"></asp:Label>
+                                                            <asp:Label ID="labAdmindept" runat="server" Text="ÁÆ°ÁêÜÈÉ®Èó®Ôºö"></asp:Label>
                                                             <asp:DropDownList ID="dropSearchAdmindept" runat="server" AutoPostBack="True" 
                                                                 onselectedindexchanged="dropSearchAdmindept_SelectedIndexChanged">
-                                                                <asp:ListItem Value="»´≤ø">»´≤ø</asp:ListItem>
-                                                                <asp:ListItem Value="…Ë±∏≤ø">…Ë±∏≤ø</asp:ListItem>
-                                                                <asp:ListItem Value="––’˛ ¬ŒÒ≤ø">––’˛ ¬ŒÒ≤ø</asp:ListItem>
-                                                                <asp:ListItem Value="π§≥Ã≤ø">π§≥Ã≤ø</asp:ListItem>
-                                                                <asp:ListItem Value="–≈œ¢ºº ı≤ø">–≈œ¢ºº ı≤ø</asp:ListItem>
+                                                                <asp:ListItem Value="ÂÖ®ÈÉ®">ÂÖ®ÈÉ®</asp:ListItem>
+                                                                <asp:ListItem Value="ËÆæÂ§áÈÉ®">ËÆæÂ§áÈÉ®</asp:ListItem>
+                                                                <asp:ListItem Value="Ë°åÊîø‰∫ãÂä°ÈÉ®">Ë°åÊîø‰∫ãÂä°ÈÉ®</asp:ListItem>
+                                                                <asp:ListItem Value="Â∑•Á®ãÈÉ®">Â∑•Á®ãÈÉ®</asp:ListItem>
+                                                                <asp:ListItem Value="‰ø°ÊÅØÊäÄÊúØÈÉ®">‰ø°ÊÅØÊäÄÊúØÈÉ®</asp:ListItem>
                                                             </asp:DropDownList>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            <asp:Label ID="labClassify" runat="server" Text="◊ ≤˙∑÷¿‡£∫"></asp:Label>
+                                                            <asp:Label ID="labClassify" runat="server" Text="ËµÑ‰∫ßÂàÜÁ±ªÔºö"></asp:Label>
                                                             <asp:DropDownList ID="dropClassify" runat="server"></asp:DropDownList>
-                                                            <asp:Button ID="Button1" runat="server" Text="≤È—Ø" onclick="btnSearch_Click" />
+                                                            <asp:Button ID="Button1" runat="server" Text="Êü•ËØ¢" onclick="btnSearch_Click" />
                                                         </TD>
 													</TR>
 													<TR vAlign="top">
-														<TD style="height: 130px;" colSpan="4"><FONT face="ÀŒÃÂ">
+														<TD style="height: 130px;" colSpan="4"><FONT face="ÂÆã‰Ωì">
                                                             <asp:datagrid id="MyDataGrid" runat="server" AutoGenerateColumns="False" 
                                                                 BorderWidth="1px" Font-Names="Verdana"
 																	BorderColor="#CBD7FF" AllowPaging="True" PagerStyle-Mode="NumericPages" PagerStyle-HorizontalAlign="Right" OnPageIndexChanged="MyDataGrid_Page"
@@ -71,55 +71,55 @@
 																	<AlternatingItemStyle BackColor="#EEEEEE"></AlternatingItemStyle>
 																	<HeaderStyle Font-Bold="True" HorizontalAlign="Center" BackColor="#CBD7FF"></HeaderStyle>
 																	<Columns>
-																		<asp:BoundColumn DataField="BARCODE" HeaderText="Ãı–Œ¬Î">
+																		<asp:BoundColumn DataField="BARCODE" HeaderText="Êù°ÂΩ¢Á†Å">
 																			<HeaderStyle Width="100px"></HeaderStyle>
 																		</asp:BoundColumn>
-																		<asp:BoundColumn DataField="ASSETCODE" HeaderText="◊ ≤˙∫≈">
+																		<asp:BoundColumn DataField="ASSETCODE" HeaderText="ËµÑ‰∫ßÂè∑">
 																			<HeaderStyle Width="100px"></HeaderStyle>
 																		</asp:BoundColumn>
-																		<asp:BoundColumn DataField="ASSETNAME" HeaderText="◊ ≤˙√˚≥∆">
+																		<asp:BoundColumn DataField="ASSETNAME" HeaderText="ËµÑ‰∫ßÂêçÁß∞">
 																			<HeaderStyle Width="300px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="KUAIJILEIBIENAME" HeaderText="ª·º∆¿‡±" Visible="False">
+                                                                        <asp:BoundColumn DataField="KUAIJILEIBIENAME" HeaderText="‰ºöËÆ°Á±ªÂà´" Visible="False">
 																			<HeaderStyle Width="150px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="SHEBEILEIBIENAME" HeaderText="…Ë±∏¿‡±" Visible="False">
+                                                                        <asp:BoundColumn DataField="SHEBEILEIBIENAME" HeaderText="ËÆæÂ§áÁ±ªÂà´" Visible="False">
 																			<HeaderStyle Width="150px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="ZICHANZHUANGTAINAME" HeaderText="…Ë±∏◊¥Ã¨">
+                                                                        <asp:BoundColumn DataField="ZICHANZHUANGTAINAME" HeaderText="ËÆæÂ§áÁä∂ÊÄÅ">
 																			<HeaderStyle Width="250px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="CUNFANGDIDIANNAME" HeaderText="µÿµ„" Visible="False">
+                                                                        <asp:BoundColumn DataField="CUNFANGDIDIANNAME" HeaderText="Âú∞ÁÇπ" Visible="False">
 																			<HeaderStyle Width="300px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="SHIYONGBUMENNAME" HeaderText=" π”√≤ø√≈">
+                                                                        <asp:BoundColumn DataField="SHIYONGBUMENNAME" HeaderText="‰ΩøÁî®ÈÉ®Èó®">
 																			<HeaderStyle Width="300px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="GUYUANBIANHAONAME" HeaderText=" π”√’ﬂ">
+                                                                        <asp:BoundColumn DataField="GUYUANBIANHAONAME" HeaderText="‰ΩøÁî®ËÄÖ">
 																			<HeaderStyle Width="150px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="GUIGEXINGHAO" HeaderText="πÊ∏Ò–Õ∫≈">
+                                                                        <asp:BoundColumn DataField="GUIGEXINGHAO" HeaderText="ËßÑÊ†ºÂûãÂè∑">
 																			<HeaderStyle Width="150px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="XULIEHAO" HeaderText="–Ú¡–∫≈">
+                                                                        <asp:BoundColumn DataField="XULIEHAO" HeaderText="Â∫èÂàóÂè∑">
 																			<HeaderStyle Width="150px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="ZICHANSHIBEIMA" HeaderText="◊ ≤˙ ∂±¬Î">
+                                                                        <asp:BoundColumn DataField="ZICHANSHIBEIMA" HeaderText="ËµÑ‰∫ßËØÜÂà´Á†Å">
 																			<HeaderStyle Width="150px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="SUPPLIER" HeaderText="π©”¶…Ã">
+                                                                        <asp:BoundColumn DataField="SUPPLIER" HeaderText="‰æõÂ∫îÂïÜ">
 																			<HeaderStyle Width="500px"></HeaderStyle>
 																		</asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="ADMINDEPT" HeaderText="π‹¿Ì≤ø√≈">
+                                                                        <asp:BoundColumn DataField="ADMINDEPT" HeaderText="ÁÆ°ÁêÜÈÉ®Èó®">
                                                                             <HeaderStyle Width="250px" />
                                                                         </asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="ASSETCLASSIFY" HeaderText="◊ ≤˙∑÷¿‡">
+                                                                        <asp:BoundColumn DataField="ASSETCLASSIFY" HeaderText="ËµÑ‰∫ßÂàÜÁ±ª">
                                                                             <HeaderStyle Width="250px" />
                                                                         </asp:BoundColumn>
-                                                                        <asp:BoundColumn DataField="BEIZHU" HeaderText="±∏◊¢">
+                                                                        <asp:BoundColumn DataField="BEIZHU" HeaderText="Â§áÊ≥®">
                                                                             <HeaderStyle Width="100px"></HeaderStyle>
                                                                         </asp:BoundColumn>
-																	    <asp:ButtonColumn CommandName="Select" HeaderText="±‡º≠Ãı–Œ¬Î" Text="±‡º≠" 
+																	    <asp:ButtonColumn CommandName="Select" HeaderText="ÁºñËæëÊù°ÂΩ¢Á†Å" Text="ÁºñËæë" 
                                                                             ButtonType="PushButton">
                                                                             <HeaderStyle Width="200px" />
                                                                         </asp:ButtonColumn>
@@ -146,17 +146,17 @@
                                                             <table>
                                                                 <tr>
                                                                     <td align="right" style="width: 150px; height: 17px">
-                                                                        <asp:label id="Label1" runat="server">◊ ≤˙∫≈</asp:label></td>
+                                                                        <asp:label id="Label1" runat="server">ËµÑ‰∫ßÂè∑</asp:label></td>
                                                                         <td align="left" style="width: 150px; height: 17px">
                                                                             <asp:TextBox ID="txtAssetcode2" runat="server" ReadOnly></asp:TextBox></td>
                                                                     <td align="right" style="width: 150px; height: 17px">
-                                                                        <asp:label id="lblAdmindept" runat="server">π‹¿Ì≤ø√≈</asp:label></td>
+                                                                        <asp:label id="lblAdmindept" runat="server">ÁÆ°ÁêÜÈÉ®Èó®</asp:label></td>
                                                                     <td align="left" style="width: 150px; height: 17px">
                                                                         <asp:DropDownList ID="dropAdmindept" runat="server" 
                                                                             onselectedindexchanged="dropAdmindept_SelectedIndexChanged" 
                                                                             AutoPostBack="True"></asp:DropDownList></td>
                                                                     <td align="right" style="width: 150px; height: 17px">
-																        <asp:label id="lblAssetclassify" runat="server">◊ ≤˙∑÷¿‡</asp:label></td>
+																        <asp:label id="lblAssetclassify" runat="server">ËµÑ‰∫ßÂàÜÁ±ª</asp:label></td>
                                                                     <td align="left" style="width: 150px; height: 17px">
                                                                         <asp:DropDownList ID="dropAssetclassify" runat="server"></asp:DropDownList></td>
                                                                 </tr>

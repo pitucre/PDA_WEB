@@ -1,16 +1,16 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EmployeeList.aspx.cs" Inherits="FixedAssetBarcodeScanProject.EmployeeList" %>
+Ôªø<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EmployeeList.aspx.cs" Inherits="FixedAssetBarcodeScanProject.EmployeeList" %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 	<head>
-		<title>‘±π§–≈œ¢¡–±Ì</title>
+		<title>ÂëòÂ∑•‰ø°ÊÅØÂàóË°®</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
 		<meta content="C#" name="CODE_LANGUAGE">
 		<meta content="JavaScript" name="vs_defaultClientScript">
 		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
 		<link href="CSS/css.css" type="text/css" rel="stylesheet">
-		<style type="text/css">.style7 { FONT-SIZE: 12px; FONT-FAMILY: "ÀŒÃÂ" }
+		<style type="text/css">.style7 { FONT-SIZE: 12px; FONT-FAMILY: "ÂÆã‰Ωì" }
 		</style>
 	</head>
 	<body leftMargin="0" topMargin="0" onload="">
@@ -20,7 +20,7 @@
 					<TD style="HEIGHT: 226px; width: 616px;" vAlign="top">
 						<TABLE cellSpacing="1" cellPadding="0" width="100%" bgColor="#c7bebc" border="0">
 							<TR>
-								<TD style="HEIGHT: 14px; width: 948px;" background="images/TrainAD.gif" bgColor="#e6e6e6">&nbsp;&nbsp;<IMG height="12" alt="" src="images/ico_arrow.gif" width="16" border="0"><FONT style="COLOR: #ff6666">&nbsp;‘±π§–≈œ¢¡–±Ì</FONT></TD>
+								<TD style="HEIGHT: 14px; width: 948px;" background="images/TrainAD.gif" bgColor="#e6e6e6">&nbsp;&nbsp;<IMG height="12" alt="" src="images/ico_arrow.gif" width="16" border="0"><FONT style="COLOR: #ff6666">&nbsp;ÂëòÂ∑•‰ø°ÊÅØÂàóË°®</FONT></TD>
 							</TR>
 							<TR id="taskDiv" vAlign="top">
 								<td vAlign="top" bgColor="#ffffff" style="width: 948px; height: 467px;">
@@ -30,28 +30,28 @@
 													</TR>
                                                     <tr>
                                                         <td colspan="4">
-                                                            <asp:Label ID="labcode" runat="server" Text="πÕ‘±±‡∫≈£∫"></asp:Label>
+                                                            <asp:Label ID="labcode" runat="server" Text="ÈõáÂëòÁºñÂè∑Ôºö"></asp:Label>
                                                             <asp:TextBox ID="txtcode" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            <asp:Label ID="labname" runat="server" Text="‘±π§√˚≥∆£∫"></asp:Label>
+                                                            <asp:Label ID="labname" runat="server" Text="ÂëòÂ∑•ÂêçÁß∞Ôºö"></asp:Label>
                                                             <asp:TextBox ID="txtname" runat="server"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                            <asp:Button ID="Button1" runat="server" Text="≤È—Ø" onclick="btnSearch_Click" />
+                                                            <asp:Button ID="Button1" runat="server" Text="Êü•ËØ¢" onclick="btnSearch_Click" />
                                                         </td>
                                                     </tr>
 													<TR vAlign="top">
-														<TD style="WIDTH: 84px; height: 130px;" colSpan="4"><FONT face="ÀŒÃÂ"><asp:datagrid id="MyDataGrid" runat="server" AutoGenerateColumns="False" BorderWidth="1px" Font-Names="Verdana"
+														<TD style="WIDTH: 84px; height: 130px;" colSpan="4"><FONT face="ÂÆã‰Ωì"><asp:datagrid id="MyDataGrid" runat="server" AutoGenerateColumns="False" BorderWidth="1px" Font-Names="Verdana"
 																	BorderColor="#CBD7FF" AllowPaging="True" PagerStyle-Mode="NumericPages" PagerStyle-HorizontalAlign="Right" OnPageIndexChanged="MyDataGrid_Page"
 																	CellPadding="4" Font-Size="8pt" HeaderStyle-BackColor="#aaaadd" AlternatingItemStyle-BackColor="#eeeeee" HorizontalAlign="Center" Width="734px" Height="145px">
 																	<SelectedItemStyle BackColor="DodgerBlue"></SelectedItemStyle>
 																	<AlternatingItemStyle BackColor="#EEEEEE"></AlternatingItemStyle>
 																	<HeaderStyle Font-Bold="True" HorizontalAlign="Center" BackColor="#CBD7FF"></HeaderStyle>
 																	<Columns>
-																		<asp:BoundColumn DataField="CCTEMPLOYEECODE" HeaderText="πÕ‘±±‡∫≈">
+																		<asp:BoundColumn DataField="CCTEMPLOYEECODE" HeaderText="ÈõáÂëòÁºñÂè∑">
 																			<HeaderStyle Width="150px"></HeaderStyle>
 																		</asp:BoundColumn>
-																		<asp:BoundColumn DataField="EMPLOYEENAME" HeaderText="‘±π§–’√˚">
+																		<asp:BoundColumn DataField="EMPLOYEENAME" HeaderText="ÂëòÂ∑•ÂßìÂêç">
 																			<HeaderStyle Width="400px"></HeaderStyle>
 																		</asp:BoundColumn>
-																		<asp:BoundColumn DataField="EMPLOYEECODE" HeaderText="JDE±‡∫≈">
+																		<asp:BoundColumn DataField="EMPLOYEECODE" HeaderText="JDEÁºñÂè∑">
 																			<HeaderStyle Width="100px"></HeaderStyle>
 																		</asp:BoundColumn>
 																	</Columns>

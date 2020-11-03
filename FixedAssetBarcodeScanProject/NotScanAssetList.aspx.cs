@@ -179,6 +179,7 @@ namespace FixedAssetBarcodeScanProject
             MyDataGrid.SelectedIndex = -1;
             strWhere = " 1=1";
             strWhere = strWhere + " AND BARCODE NOT IN (SELECT BARCODE FROM SCANRESULT WHERE DATAFLAG != -1)";
+
             String strDept = dropDept.SelectedValue;
             String strAdminDept = dropAdminDept.SelectedValue.ToString();
             if (!strDept.Equals("-1"))
