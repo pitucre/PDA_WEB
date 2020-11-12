@@ -71,6 +71,7 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="AddBarcodeByEmployeeID.aspx" />
     <Content Include="AddBarcodeSetting.aspx" />
     <Content Include="AddFunction.aspx" />
     <Content Include="AddPart.aspx" />
@@ -165,6 +166,13 @@
     </Compile>
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddBarcodeByEmployeeID.aspx.cs">
+      <DependentUpon>AddBarcodeByEmployeeID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddBarcodeByEmployeeID.aspx.designer.cs">
+      <DependentUpon>AddBarcodeByEmployeeID.aspx</DependentUpon>
     </Compile>
     <Compile Include="AddBarcodeSetting.aspx.cs">
       <DependentUpon>AddBarcodeSetting.aspx</DependentUpon>

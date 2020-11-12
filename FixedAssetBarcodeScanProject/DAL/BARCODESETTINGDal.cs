@@ -24,7 +24,7 @@ namespace CCT.DAL
             strSql.Append("select count(1) from BARCODESETTING");
             strSql.Append(" where BARCODEID=@BARCODEID ");
             SqlParameter[] parameters = {
-					new SqlParameter("@BARCODEID", SqlDbType.Int,4)};
+                    new SqlParameter("@BARCODEID", SqlDbType.Int,4)};
             parameters[0].Value = BARCODEID;
 
             return DbHelperSQL.Exists(strSql.ToString(), parameters);
@@ -38,22 +38,27 @@ namespace CCT.DAL
         {
             StringBuilder strSql = new StringBuilder();
             strSql.Append("insert into BARCODESETTING(");
-            strSql.Append("BARCODEID,DEPTCODE,ASSETCLASSIFY,FIXEDBARCODE,MAXCODE,COMMENTS)");
+            strSql.Append("BARCODEID,DEPTCODE,ASSETCLASSIFY,FIXEDBARCODE,MAXCODE,COMMENTS,plantid,employeeid)");
             strSql.Append(" values (");
-            strSql.Append("@BARCODEID,@DEPTCODE,@ASSETCLASSIFY,@FIXEDBARCODE,@MAXCODE,@COMMENTS)");
+            strSql.Append("@BARCODEID,@DEPTCODE,@ASSETCLASSIFY,@FIXEDBARCODE,@MAXCODE,@COMMENTS,@plantid,@employeeid)");
             SqlParameter[] parameters = {
-					new SqlParameter("@BARCODEID", SqlDbType.Int,4),
-					new SqlParameter("@DEPTCODE", SqlDbType.NVarChar,50),
-					new SqlParameter("@ASSETCLASSIFY", SqlDbType.NVarChar),
-					new SqlParameter("@FIXEDBARCODE", SqlDbType.NVarChar,10),
-					new SqlParameter("@MAXCODE", SqlDbType.Int,4),
-                    new SqlParameter("@COMMENTS", SqlDbType.NVarChar)};
+                    new SqlParameter("@BARCODEID", SqlDbType.Int,4),
+                    new SqlParameter("@DEPTCODE", SqlDbType.NVarChar,50),
+                    new SqlParameter("@ASSETCLASSIFY", SqlDbType.NVarChar),
+                    new SqlParameter("@FIXEDBARCODE", SqlDbType.NVarChar,10),
+                    new SqlParameter("@MAXCODE", SqlDbType.Int,4),
+                    new SqlParameter("@COMMENTS", SqlDbType.NVarChar),
+                    new SqlParameter("@plantid", SqlDbType.NVarChar,2),
+                    new SqlParameter("@employeeid", SqlDbType.NVarChar,50)
+            };
             parameters[0].Value = model.BARCODEID;
             parameters[1].Value = model.DEPTCODE;
             parameters[2].Value = model.ASSETCLASSIFY;
             parameters[3].Value = model.FIXEDBARCODE;
             parameters[4].Value = model.MAXCODE;
             parameters[5].Value = model.COMMENTS;
+            parameters[6].Value = model.PlantID;
+            parameters[7].Value = model.EmployeeID;
 
             DbHelperSQL.ExecuteSql(strSql.ToString(), parameters);
         }
@@ -69,21 +74,28 @@ namespace CCT.DAL
             strSql.Append("ASSETCLASSIFY=@ASSETCLASSIFY,");
             strSql.Append("FIXEDBARCODE=@FIXEDBARCODE,");
             strSql.Append("MAXCODE=@MAXCODE,");
-            strSql.Append("COMMENTS=@COMMENTS");
+            strSql.Append("COMMENTS=@COMMENTS,");
+            strSql.Append("plantid=@plantid,");
+            strSql.Append("employeeid=@employeeid");
             strSql.Append(" where BARCODEID=@BARCODEID ");
             SqlParameter[] parameters = {
-					new SqlParameter("@BARCODEID", SqlDbType.Int,4),
-					new SqlParameter("@DEPTCODE", SqlDbType.NVarChar,50),
-					new SqlParameter("@ASSETCLASSIFY", SqlDbType.NVarChar),
-					new SqlParameter("@FIXEDBARCODE", SqlDbType.NVarChar,10),
-					new SqlParameter("@MAXCODE", SqlDbType.Int,4),
-                    new SqlParameter("@COMMENTS", SqlDbType.NVarChar)};
+                    new SqlParameter("@BARCODEID", SqlDbType.Int,4),
+                    new SqlParameter("@DEPTCODE", SqlDbType.NVarChar,50),
+                    new SqlParameter("@ASSETCLASSIFY", SqlDbType.NVarChar),
+                    new SqlParameter("@FIXEDBARCODE", SqlDbType.NVarChar,10),
+                    new SqlParameter("@MAXCODE", SqlDbType.Int,4),
+                    new SqlParameter("@COMMENTS", SqlDbType.NVarChar),
+                    new SqlParameter("@plantid", SqlDbType.NVarChar,2),
+                    new SqlParameter("@employeeid", SqlDbType.NVarChar,50)
+            };
             parameters[0].Value = model.BARCODEID;
             parameters[1].Value = model.DEPTCODE;
             parameters[2].Value = model.ASSETCLASSIFY;
             parameters[3].Value = model.FIXEDBARCODE;
             parameters[4].Value = model.MAXCODE;
             parameters[5].Value = model.COMMENTS;
+            parameters[6].Value = model.PlantID;
+            parameters[7].Value = model.EmployeeID;
 
             int rows = DbHelperSQL.ExecuteSql(strSql.ToString(), parameters);
             if (rows > 0)
@@ -106,7 +118,7 @@ namespace CCT.DAL
             strSql.Append("delete from BARCODESETTING ");
             strSql.Append(" where BARCODEID=@BARCODEID ");
             SqlParameter[] parameters = {
-					new SqlParameter("@BARCODEID", SqlDbType.Int,4)};
+                    new SqlParameter("@BARCODEID", SqlDbType.Int,4)};
             parameters[0].Value = BARCODEID;
 
             int rows = DbHelperSQL.ExecuteSql(strSql.ToString(), parameters);
@@ -149,7 +161,7 @@ namespace CCT.DAL
             strSql.Append("select  top 1 BARCODEID,DEPTCODE,ASSETCLASSIFY,FIXEDBARCODE,MAXCODE,COMMENTS from BARCODESETTING ");
             strSql.Append(" where BARCODEID=@BARCODEID ");
             SqlParameter[] parameters = {
-					new SqlParameter("@BARCODEID", SqlDbType.Int,4)};
+                    new SqlParameter("@BARCODEID", SqlDbType.Int,4)};
             parameters[0].Value = BARCODEID;
 
             CCT.Model.BARCODESETTINGModel model = new CCT.Model.BARCODESETTINGModel();
@@ -174,7 +186,7 @@ namespace CCT.DAL
                 }
                 if (ds.Tables[0].Rows[0]["MAXCODE"] != null && ds.Tables[0].Rows[0]["MAXCODE"].ToString() != "")
                 {
-                    model.MAXCODE =  int.Parse(ds.Tables[0].Rows[0]["MAXCODE"].ToString());
+                    model.MAXCODE = int.Parse(ds.Tables[0].Rows[0]["MAXCODE"].ToString());
                 }
                 if (ds.Tables[0].Rows[0]["COMMENTS"] != null && ds.Tables[0].Rows[0]["COMMENTS"].ToString() != "")
                 {
@@ -198,7 +210,7 @@ namespace CCT.DAL
             strSql.Append("select  top 1 BARCODEID,DEPTCODE,ASSETCLASSIFY,FIXEDBARCODE,MAXCODE,COMMENTS from BARCODESETTING ");
             strSql.Append(" where FIXEDBARCODE=@FIXEDBARCODE ");
             SqlParameter[] parameters = {
-					new SqlParameter("@FIXEDBARCODE", SqlDbType.VarChar,10)};
+                    new SqlParameter("@FIXEDBARCODE", SqlDbType.VarChar,10)};
             parameters[0].Value = fixedCode;
 
             CCT.Model.BARCODESETTINGModel model = new CCT.Model.BARCODESETTINGModel();
@@ -251,6 +263,33 @@ namespace CCT.DAL
             }
             return DbHelperSQL.Query(strSql.ToString());
         }
+        /// <summary>
+        /// 增加工厂代码后的获取完整列表函数
+        /// </summary>
+        /// <param name="strWhere"></param>
+        /// <returns></returns>
+        public DataSet GetList2(string strWhere)
+        {
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("select plantid,EmployeeID,BARCODEID,DEPTCODE,ASSETCLASSIFY,FIXEDBARCODE,MAXCODE,COMMENTS ");
+            strSql.Append(" FROM BARCODESETTING ");
+            if (strWhere.Trim() != "")
+            {
+                strSql.Append(" where " + strWhere);
+            }
+            return DbHelperSQL.Query(strSql.ToString());
+        }
+
+
+        public DataSet GetPlant(string strSql)
+        {
+            //StringBuilder strSql = new StringBuilder();
+            //strSql.Append("select plantid,EmployeeID,BARCODEID,DEPTCODE,ASSETCLASSIFY,FIXEDBARCODE,MAXCODE,COMMENTS ");
+            //strSql.Append(" FROM BARCODESETTING ");
+
+            return DbHelperSQL.Query(strSql.ToString());
+        }
+
 
         /// <summary>
         /// 获得前几行数据
@@ -336,8 +375,8 @@ namespace CCT.DAL
                 strSql.Append("MAXCODE=@MAXCODE");
                 strSql.Append(" where BARCODEID=@BARCODEID ");
                 SqlParameter[] parameters = {
-					new SqlParameter("@BARCODEID", SqlDbType.Int,4),
-					new SqlParameter("@MAXCODE", SqlDbType.Int,4)};
+                    new SqlParameter("@BARCODEID", SqlDbType.Int,4),
+                    new SqlParameter("@MAXCODE", SqlDbType.Int,4)};
                 parameters[0].Value = barcodeId;
                 parameters[1].Value = maxcode;
 

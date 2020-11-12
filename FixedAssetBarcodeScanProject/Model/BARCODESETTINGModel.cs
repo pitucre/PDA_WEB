@@ -16,6 +16,8 @@ namespace CCT.Model
         private string _fixedbarcode;
         private int _maxcode;
         private string _comments;
+        private string _employeeID;
+        private string _plantID;
         /// <summary>
         /// 记录ID
         /// </summary>
@@ -64,6 +66,9 @@ namespace CCT.Model
             set { _comments = value; }
             get { return _comments; }
         }
+
+        public string EmployeeID { get => _employeeID; set => _employeeID = value; }
+        public string PlantID { get => _plantID; set => _plantID = value; }
         #endregion Model
     }
 }
