@@ -104,6 +104,7 @@
     <Content Include="images\LoginChinese.jpg" />
     <Content Include="images\MAIN.jpg" />
     <Content Include="images\refreshdata3.jpg" />
+    <Content Include="images\refreshdata3_new.jpg" />
     <Content Include="images\saveScanResult.png" />
     <Content Include="images\TOP_BG2.jpg" />
     <Content Include="images\TrainAD.gif" />

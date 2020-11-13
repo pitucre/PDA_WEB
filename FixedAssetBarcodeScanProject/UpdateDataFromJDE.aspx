@@ -1,35 +1,35 @@
-ï»¿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UpdateDataFromJDE.aspx.cs" Inherits="FixedAssetBarcodeScanProject.UpdateDataFromJDE" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UpdateDataFromJDE.aspx.cs" Inherits="FixedAssetBarcodeScanProject.UpdateDataFromJDE" %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML>
 	<HEAD>
-		<TITLE>ä»JDEç³»ç»Ÿæ›´æ–°æ•°æ®</TITLE>
+		<TITLE>´ÓSAPÏµÍ³¸üĞÂÊı¾İ</TITLE>
 		<META http-equiv="Content-Type" content="text/html; charset=gb2312">
 		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
 		<meta content="C#" name="CODE_LANGUAGE">
 		<meta content="JavaScript" name="vs_defaultClientScript">
 		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
 		<LINK href="CSS/css.css" type="text/css" rel="stylesheet">
-		<style type="text/css">.style7 { FONT-SIZE: 12px; FONT-FAMILY: "å®‹ä½“" }
+		<style type="text/css">.style7 { FONT-SIZE: 12px; FONT-FAMILY: "ËÎÌå" }
 		</style>
-        <script language="javascript">
+        <script type="text/javascript" language="javascript">
             function FrmExit() {
-                return confirm("æ‚¨ç¡®å®šè¦é€€å‡ºå—?");
+                return confirm("ÄúÈ·¶¨ÒªÍË³öÂğ?");
             }
             function FrmRefresh() {
-                if (confirm("è¿™å¯èƒ½éœ€è¦èŠ±è´¹å‡ åˆ†é’Ÿæ—¶é—´ï¼Œæ‚¨ç¡®å®šè¦è¿›è¡Œè¯¥æ“ä½œå—?") == true) {
+                if (confirm("Õâ¿ÉÄÜĞèÒª»¨·Ñ¼¸·ÖÖÓÊ±¼ä£¬ÄúÈ·¶¨Òª½øĞĞ¸Ã²Ù×÷Âğ?") == true) {
                     return true;
                 }
                 return false;
             }
             function FrmUpload() {
-                if (confirm("æ‚¨ç¡®å®šè¿›è¡Œè¯¥æ“ä½œå—ï¼Ÿ") == true) {
+                if (confirm("ÄúÈ·¶¨½øĞĞ¸Ã²Ù×÷Âğ£¿") == true) {
                     return true;
                 }
                 return false;
             }
             function FrmSavedResult() {
-                if (confirm("å°å­˜æœ¬æ¬¡ç›˜ç‚¹ä¿¡æ¯åï¼Œæ‚¨å°†ä¸èƒ½å†æŸ¥è¯¢ç›˜ç‚¹ç»“æœã€‚æ‚¨ç¡®å®šè¿›è¡Œè¯¥æ“ä½œå—ï¼Ÿ") == true) {
+                if (confirm("·â´æ±¾´ÎÅÌµãĞÅÏ¢ºó£¬Äú½«²»ÄÜÔÙ²éÑ¯ÅÌµã½á¹û¡£ÄúÈ·¶¨½øĞĞ¸Ã²Ù×÷Âğ£¿") == true) {
                     return true;
                 }
                 return false;
@@ -43,7 +43,7 @@
 					<TD style="HEIGHT: 226px; width: 616px;" vAlign="top">
 						<TABLE cellSpacing="1" cellPadding="0" width="100%" bgColor="#c7bebc" border="0">
 							<TR>
-								<TD style="HEIGHT: 14px; width: 948px;" background="images/TrainAD.gif" bgColor="#e6e6e6">&nbsp;&nbsp;<IMG height="12" alt="" src="images/ico_arrow.gif" width="16" border="0"><FONT style="COLOR: #ff6666">&nbsp;æ•°æ®æ›´æ–°</FONT></TD>
+								<TD style="HEIGHT: 14px; width: 948px;" background="images/TrainAD.gif" bgColor="#e6e6e6">&nbsp;&nbsp;<IMG height="12" alt="" src="images/ico_arrow.gif" width="16" border="0"><FONT style="COLOR: #ff6666">&nbsp;Êı¾İ¸üĞÂ</FONT></TD>
 							</TR>
 							<TR id="taskDiv" vAlign="top">
 								<td vAlign="top" bgColor="#ffffff" style="width: 948px; height: 467px;">
@@ -53,7 +53,7 @@
 													</TR>
                                                     <tr>
                                                         <td colspan = "4">
-                                                            <asp:imagebutton id="btnRefresh" tabIndex="9" runat="server" ImageUrl="images/refreshdata3.jpg" OnClick="BtnRefresh_Click"></asp:imagebutton></td>
+                                                            <asp:imagebutton id="btnRefresh" tabIndex="9" runat="server" ImageUrl="images/refreshdata3_new.jpg" OnClick="BtnRefresh_Click"></asp:imagebutton></td>
                                                         </td>
                                                     </tr>
 													<TR>
@@ -63,11 +63,11 @@
                                                         <td colspan="4">
                                                             <table>
                                                                 <tr>
-                                                                    <td><FONT face="å®‹ä½“">æ›´æ–°èµ„äº§å¯¹åº”çš„æ¡å½¢ç ä¿¡æ¯ï¼ˆæ–‡ä»¶æ ¼å¼è¦æ±‚ï¼š.xlsæ–‡ä»¶ï¼›sheetåä¸ºsheet1ï¼›ç¬¬ä¸€åˆ—ä¸ºèµ„äº§ç¼–ç ï¼›ç¬¬äºŒåˆ—ä¸ºæ¡å½¢ç ï¼‰</font></td>
+                                                                    <td><FONT face="ËÎÌå">¸üĞÂ×Ê²ú¶ÔÓ¦µÄÌõĞÎÂëĞÅÏ¢£¨ÎÄ¼ş¸ñÊ½ÒªÇó£º.xlsÎÄ¼ş£»sheetÃûÎªsheet1£»µÚÒ»ÁĞÎª×Ê²ú±àÂë£»µÚ¶şÁĞÎªÌõĞÎÂë£©</font></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
-                                                                        æ–‡ä»¶ï¼š<asp:FileUpload 
+                                                                        ÎÄ¼ş£º<asp:FileUpload 
                                                                             ID="FileUpload1" runat="server" Width="400px" />&nbsp;&nbsp;&nbsp;&nbsp;
                                                                         <asp:imagebutton id="btnUpload" tabIndex="9" runat="server" ImageUrl="images/upload.jpg" OnClick="BtnUpload_Click"></asp:imagebutton>
                                                                     </td>

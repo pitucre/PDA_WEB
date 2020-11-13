@@ -130,7 +130,7 @@ namespace FixedAssetBarcodeScanProject
         public void GetPlantDropDownListInit(DropDownList ddlPlant)
         {
             DataSet ds = new DataSet();
-            ds = dal.GetPlant("select distinct * from db_accessadmin.PlantInfo ");
+            ds = dal.GetPlant("select distinct * from PlantInfo ");
             try
             {
                 if (!(ds.Tables[0].Columns.Count == 0))
